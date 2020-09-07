@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/dashboard"
+            android:title="Dashboard" />
+
+        <item
+            android:id="@+id/nav_calender"
+            android:icon="@drawable/calendar"
+            android:title="@string/menu_calender" />
+        <item
+            android:id="@+id/nav_assesor"
+            android:icon="@drawable/assessor"
+            android:title="@string/menu_assessor" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_batches"
+            android:icon="@drawable/batch"
+            android:title="@string/menu_baches" />
+
+        <item
+            android:id="@+id/nav_exam"
+            android:icon="@drawable/exam"
+            android:title="@string/menu_exam" />
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feedback"
+            android:title="@string/menu_feedback" />
+
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/report"
+            android:title="@string/menu_reports" />
+
+        <item
+            android:id="@+id/nav_analytics"
+            android:icon="@drawable/analystics"
+            android:title="@string/menu_analytics" />
+
+        <item
+            android:id="@+id/nav_Result"
+            android:icon="@drawable/result"
+            android:title="@string/menu_result" />
+
+        <item
+            android:id="@+id/nav_traningresorces"
+            android:icon="@drawable/traningresorces"
+            android:title="@string/menu_treningresorces" />
+
+        <item
+            android:id="@+id/nav_questionpaper"
+            android:icon="@drawable/quastionpaper"
+            android:title="@string/menu_questionpaper" />
+
+        <item
+            android:id="@+id/nav_cost"
+            android:icon="@drawable/cost"
+            android:title="@string/menu_costperassessment" />
+    </group>
+</menu>

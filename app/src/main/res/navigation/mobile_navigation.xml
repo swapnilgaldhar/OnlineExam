@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.example.onlineexam.navigationdraver.ui.dashboard.Dashboard2"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard2" />
+
+    <fragment
+        android:id="@+id/nav_calender"
+        android:name="com.example.onlineexam.navigationdraver.ui.calender.Calender"
+        android:label="@string/menu_calender"
+        tools:layout="@layout/fragment_calender" />
+
+    <fragment
+        android:id="@+id/nav_assessor"
+        android:name="com.example.onlineexam.navigationdraver.ui.assessor.Assessor"
+        android:label="@string/menu_assessor"
+        tools:layout="@layout/fragment_assessor" />
+
+    <fragment
+        android:id="@+id/nav_assessment"
+        android:name="com.example.onlineexam.navigationdraver.ui.assessment.Assessment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_assessment" />
+
+    <fragment
+        android:id="@+id/nav_batches"
+        android:name="com.example.onlineexam.navigationdraver.ui.batches.Batches"
+        android:label="@string/menu_baches"
+        tools:layout="@layout/fragment_batches" />
+
+    <fragment
+        android:id="@+id/nav_exam"
+        android:name="com.example.onlineexam.navigationdraver.ui.exam.Exam"
+        android:label="@string/menu_exam"
+        tools:layout="@layout/fragment_exam" />
+
+    <fragment
+        android:id="@+id/nav_location"
+        android:name="com.example.onlineexam.navigationdraver.ui.exam.Exam"
+        android:label="@string/menu_location"
+        tools:layout="@layout/fragment_location" />
+
+    <fragment
+        android:id="@+id/nav_Result"
+        android:name="com.example.onlineexam.navigationdraver.ui.result.Result"
+        android:label="@string/menu_result"
+        tools:layout="@layout/fragment_result" />
+
+    <fragment
+        android:id="@+id/nav_treningcenter"
+        android:name="com.example.onlineexam.navigationdraver.ui.treningcenter.treningcenter"
+        android:label="@string/menu_treningcenter"
+        tools:layout="@layout/fragment_treningcenter" />
+
+    <fragment
+        android:id="@+id/nav_cost"
+        android:name="com.example.onlineexam.navigationdraver.ui.Cost"
+        android:label="@string/menu_costperassessment"
+        tools:layout="@layout/fragment_cost" />
+</navigation>
